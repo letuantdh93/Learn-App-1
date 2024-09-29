@@ -1,0 +1,44 @@
+/* CSS ở đây để bạn có thể kiểm tra nhanh */
+body {
+  display: flex;
+  flex-direction: column; /* Xếp chồng theo chiều dọc */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  height: 100vh; /* Chiều cao của viewport */
+  margin: 0; /* Xóa khoảng cách mặc định */
+  background-color: #f0f0f0; /* Màu nền trang */
+  font-family: Arial, sans-serif; /* Phông chữ */
+  background-image: url(../img/background.jpg);
+}
+#logo {
+  max-width: 30%; /* Giảm kích thước logo nếu cần thiết */
+  height: auto; /* Giữ tỉ lệ cho logo */
+  margin-bottom: 20px; /* Khoảng cách giữa logo và tiêu đề */
+}
+h1 {
+  margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và bảng */
+  text-align: center; /* Căn giữa tiêu đề */
+}
+table {
+  border-collapse: collapse; /* Xóa khoảng cách giữa các ô */
+  width: 300px; /* Chiều rộng bảng */
+  margin-bottom: 20px; /* Khoảng cách giữa bảng và nút */
+}
+th,
+td {
+  padding: 10px; /* Khoảng cách bên trong các ô */
+  text-align: left; /* Căn trái nội dung */
+}
+button {
+  background-color: #4caf50; /* Màu nền nút */
+  color: white; /* Màu chữ */
+  border: none; /* Không có đường viền */
+  padding: 10px 20px; /* Khoảng cách bên trong nút */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Hiển thị con trỏ khi di chuột qua nút */
+  border-radius: 5px; /* Bo tròn góc nút */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền khi hover */
+}
+button:hover {
+  background-color: #0f8bde; /* Màu nền khi hover */
+}
